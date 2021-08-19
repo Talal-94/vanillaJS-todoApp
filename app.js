@@ -23,9 +23,10 @@ function addTodo(event) {
     todoDiv.appendChild(completedButton);
      //trash button 🗑
      const trashButton = document.createElement('button');
-     trashButton.innerHTML = '<i class = "fas fa-trash"></i>'
+     trashButton.innerHTML = '<i class = "fas fa-trash"></i>';
      trashButton.classList.add("complete-btn");
      todoDiv.appendChild(trashButton);
      //APPEND TO LIST
      todoList.appendChild(todoDiv);
+
 }
