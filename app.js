@@ -30,5 +30,4 @@ function addTodo(event) {
      todoList.appendChild(todoDiv);
      //CLEAR todo INPUT VALUE
      todoInput.value = "";
-     
 }
